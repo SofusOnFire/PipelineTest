@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build the Docker image
-      run: docker build . -t sofusonfire/apitesting:latest -f PipelineTest/Dockerfile
+      run: docker build . -t sofusonfire/apitesting:latest -f WoooooooDockerrr/Dockerfile
     - name: Push Image to DockerHub
       run: |
        docker login -u sofusonfire -p ${{ secrets.DOCKER_TOKEN }}
